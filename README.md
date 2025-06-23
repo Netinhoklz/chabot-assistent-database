@@ -1,7 +1,3 @@
-Claro! Criei um arquivo `README.md` que é ao mesmo tempo conciso, profissional e visualmente agradável, perfeito para a página inicial do seu repositório no GitHub.
-
----
-
 # Assistente IA para Gerenciamento de Contatos 🤖
 
 Este projeto é uma aplicação web completa construída com **Python** e **Flask** que funciona como um sistema inteligente de gerenciamento de contatos. A principal inovação é sua **interface de usuário dupla**:
