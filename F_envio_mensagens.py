@@ -20,9 +20,9 @@ def enviar_mensagem_utalk(numero_destino: str, texto_mensagem: str) -> tuple[boo
     """
     # --- Constantes da API ---
     # Estes valores parecem ser fixos para a sua automação
-    BASE_URL = "https://api.utalk.chat/send/rsd66an/"
+    BASE_URL = "COLOQUE SUA BASE DE URL AQUI"
     CMD = "chat"
-    ID_AUTOMACAO = "OVRBQ1798Z"
+    ID_AUTOMACAO = "COLOQUE O SEU ID DE AUTOMAÇÃO AQUI"
 
     # --- Montagem dos parâmetros da requisição ---
     params = {
@@ -62,7 +62,7 @@ def enviar_mensagem_utalk(numero_destino: str, texto_mensagem: str) -> tuple[boo
 # --- EXEMPLO DE COMO USAR A FUNÇÃO ---
 if __name__ == "__main__":
     # Substitua com o número para o qual você quer enviar a mensagem
-    meu_numero = "5585991604837"
+    meu_numero = "5585995545837"
     minha_mensagem = f"Olá! Este é um teste enviado pela minha função Python. (Fortaleza, {__import__('datetime').datetime.now().strftime('%d/%m/%Y %H:%M')})"
 
     # Chama a função para enviar a mensagem
