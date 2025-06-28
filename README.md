@@ -65,20 +65,22 @@ Siga os passos abaixo para executar o projeto em sua máquina local.
     ```sh
     pip install -r requirements.txt
     ```
-
-4.  **Configure suas credenciais:**
+4. **Ajuste a função de envio de mensagem via WhatsApp**
+    - Vá até F_envio_mensagens.py e coloque as suas credenciais da Utalk
+      
+5.  **Configure suas credenciais:**
     -   Crie um arquivo chamado `.env` na raiz do projeto.
     -   Adicione sua chave da OpenAI a este arquivo:
         ```env
         OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         ```
 
-5.  **Execute a aplicação:**
+6.  **Execute a aplicação:**
     ```sh
     python app_flask.py
     ```
 
-6.  Abra seu navegador e acesse `http://127.0.0.1:5000` para ver a aplicação funcionando!
+7.  Abra seu navegador e acesse `http://127.0.0.1:5000` para ver a aplicação funcionando!
 
 ## 💬 Exemplos de Uso com o Assistente
 
